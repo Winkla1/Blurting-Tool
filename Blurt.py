@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 from youtube_transcript_api import YouTubeTranscriptApi
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.8-flash"
 client = genai.Client()  # reads GEMINI_API_KEY from your environment
 
 
