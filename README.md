@@ -79,4 +79,4 @@ The model is set by the `MODEL` variable near the top of `blurt.py`. Google reti
 
 ## License
 
-MIT, or whatever you prefer. Add a `LICENSE` file to the repo to make it official.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
