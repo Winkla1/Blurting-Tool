@@ -32,6 +32,7 @@ You need Python 3.9 or newer and a free Gemini API key.
 Create one at https://aistudio.google.com/apikey. No credit card is needed for the free tier.
 
 **2. Install the dependencies**
+In your terminal, paste
 
 ```
 pip install streamlit google-genai youtube-transcript-api
