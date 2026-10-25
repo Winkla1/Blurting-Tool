@@ -110,7 +110,7 @@ def get_transcript(vid):
 def extract_points(transcript):
     return ask_json(f"""Below is a timestamped video transcript. Extract the key points a student
 should remember: main ideas, facts, definitions, and relationships. Skip filler and
-sponsor segments. Aim for 10-30 points depending on length.
+sponsor segments. Aim for a fair amount of points depending on length and the topics covered in the video.
 
 Return ONLY JSON: {{"points": [{{"id": 1, "point": "...", "time": "m:ss"}}]}}
 
